@@ -1,0 +1,53 @@
+//Здесь я создал два дива с iМессенджер. Первый использовал для градиента, а второй как тень. Только так получилось пофиксить.
+/*
+.auth-loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  font-family: Inter, system-ui ;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  //text-shadow: 0 4px 20px #181616; //Почему-то при выставлении тени, она начинает просвечивать сквозь градиент.
+  background-image: linear-gradient(90deg, #25BCFD -5.13%, rgba(191, 220, 232, 0.88) 147.99%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+*/
+
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.auth-loader-container {
+  position: relative;
+  display: inline-block;
+}
+
+.auth-loader-text {
+  font-size: 40px;
+  font-weight: bold;
+  background-image: linear-gradient(90deg, #25BCFD -5.13%, #bfdce8 147.99%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  font-size: 40px;
+  font-weight: bold;
+  color: #181616;
+  opacity: 0.5;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+}
+
