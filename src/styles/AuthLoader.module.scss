@@ -18,19 +18,19 @@
 }
 */
 
-.center-container {
+.centerContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 90vh;
 }
 
-.auth-loader-container {
+.authLoaderContainer {
   position: relative;
   display: inline-block;
 }
 
-.auth-loader-text {
+.authLoaderText {
   font-size: 40px;
   font-weight: bold;
   background-image: linear-gradient(90deg, #25BCFD -5.13%, #bfdce8 147.99%);
@@ -39,7 +39,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-.text-shadow {
+.textShadow {
   position: absolute;
   top: 0;
   left: 0;

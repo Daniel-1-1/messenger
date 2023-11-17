@@ -1,10 +1,10 @@
-import React from "react";
-import "../styles/AuthScreen.scss";
+import React from 'react';
+import styles from "../styles/AuthScreen.module.scss";
 
 const AuthScreen = () => {
     return (
-        <div>
-            <p>Это страница с вводом почты</p>
+        <div className={styles.authScreenAuthName}>
+            <h1>Авторизация</h1>
         </div>
     );
 };
