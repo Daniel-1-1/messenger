@@ -1,4 +1,3 @@
-/*
 import React, { useEffect } from "react";
 import styles from "../styles/AuthLoader.module.scss";
 import { useNavigate } from 'react-router-dom';
@@ -7,13 +6,13 @@ const AuthLoader = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        const delay = 3000;                                 // Устанавливаем задержку в 2 секунды
-        const timer = setTimeout(() => {        // Запускаем таймер, который перенаправит пользователя на страницу авторизации
+        const delay = 3000;
+        const timer = setTimeout(() => {
 
-            navigate('/auth-screen');                            // Перенаправляем пользователя на страницу авторизации
+            navigate('/auth-screen');
         }, delay);
 
-        return () => clearTimeout(timer);                     // Очищаем таймер при размонтировании компонента (предотвращаем утечку памяти)
+        return () => clearTimeout(timer);
     }, [navigate]);
 
     return (
@@ -28,8 +27,8 @@ const AuthLoader = () => {
 
 
 export default AuthLoader;
-*/
 
+/*
 import React from "react";
 import styles from "../styles/AuthLoader.module.scss";
 
@@ -49,4 +48,4 @@ const AuthLoader = () => {
 
 
 
-export default AuthLoader;
+export default AuthLoader;*/
