@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import styles from "../styles/AuthScreen.module.scss";
-import {useNavigate} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const AuthScreen = () => {
     const [email, setEmail] = useState('')
@@ -10,7 +10,7 @@ const AuthScreen = () => {
 
     const handleNextButtonClick = () => {
         if (isEmailValid(email)) {
-            navigate("./code-input");
+            navigate("/code-input");
         } else {
             setEmailError("Введите корректный емейл");
         }
