@@ -37,7 +37,7 @@
 
 .CodeInputWrapper {
   display: flex;
-  gap: 16px; // Расстояние между окошками
+  gap: 16px;
   margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
@@ -54,6 +54,7 @@
   color: #25BCFD;
   outline: none;
   border-radius: 15px;
+  text-align: center;
 
 }
 
@@ -73,59 +74,5 @@
 }
 
 .NextButton:hover {
-  background-color: #25BCFD; // Цвет при наведении
+  background-color: #25BCFD;
 }
-
-/*.CodeInputContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
-}
-
-.CodeTitle {
-  color: #FFF;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  margin-top: -400px;
-}
-
-.CodeInputWrapper {
-  display: flex;
-  gap: 10px; // Расстояние между окошками
-  margin-top: 20px;
-}
-
-.CodeInput {
-  width: 48px;
-  height: 58px;
-  font-size: 17px;
-  padding: 10px;
-  border: none;
-  font-weight: 400;
-  background-color: #5B6366;
-  color: #25BCFD;
-  outline: none;
-  border-radius: 15px;
-}
-
-.NextButton {
-  color: #fff;
-  padding: 13px 71px;
-  font-size: 20px;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  border-radius: 15px;
-  background: #5B6366;
-  margin-top: 60px;
-  font-weight: 500;
-}
-
-.NextButton:hover {
-  background-color: #25BCFD; // Цвет при наведении
-}*/
-
