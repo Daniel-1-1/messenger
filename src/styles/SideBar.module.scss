@@ -1,0 +1,60 @@
+.sideBar {
+  height: 100%;
+  width: 103px;
+  top: 0;
+  left: 0;
+  position: fixed;
+
+}
+
+.sideBarButtonMenu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 29px auto 56px;
+}
+
+
+.sideBarButtonMessage {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+  display: flex;
+  margin-bottom: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  font-size: 12px;
+  align-items: center;
+}
+
+.sideBarButtonUnread {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.sideBarButtonSettings {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  font-size: 12px;
+}
+

@@ -1,0 +1,35 @@
+.searchContainer {
+  width: 445px;
+  height: 39px;
+  background: #4B5E66;
+  margin-left: 124px;
+  border-radius: 20px;
+  margin-top: 21px;
+  display: flex;
+  color: #FFFFFF;
+}
+
+.searchIcon {
+ height: 24px;
+  width: 24px;
+  margin: 8px 4px 7px 12px;
+}
+
+.searchInput {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  font-size: 16px;
+  color: white;
+  background: transparent;
+  margin-top: 13px;
+  margin-bottom: 11px;
+}
+
+.searchInput::placeholder {
+  color: white;
+  opacity: 0.7;
+}

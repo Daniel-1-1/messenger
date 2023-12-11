@@ -1,0 +1,24 @@
+.chatListItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.profileIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chatDetails {
+  flex-grow: 1;
+}
+
+.userName {
+  font-weight: bold;
+}
+
+.lastMessage {
+  color: #707070;
+}
