@@ -16,7 +16,7 @@ const CodeInput = () => {
     };
 
     const handleNextButtonClick = () => {
-        navigate("./code-input");
+        navigate("/main-page");
     };
 
     return (
